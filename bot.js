@@ -4,6 +4,7 @@ client.on('ready', () => {
   console.log('I am ready!');
 });
 client.on("ready", function () {
-        client.user.setGame('Black Screen' , 'https://www.twitch.tv/browjo6');     
+         client.user.setStatus('online');
+        //client.user.setStatus('Black Screen' , 'https://www.twitch.tv/browjo6');     
   });
 client.login(process.env.BOT_TOKEN);
